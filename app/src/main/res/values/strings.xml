@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Budget Planner</string>
+
+    <string name="fragment_summary_label">Podsumowanie</string>
+    <string name="fragment_form_label">Nowy koszt</string>
+
+    <string name="fragment_user_dialog_title">Wprowadź dane</string>
+    <string name="fragment_user_dialog_btn_negative">Wyjdź</string>
+    <string name="fragment_user_dialog_btn_positive">Zatwierdź</string>
+
+    <string name="fragment_user_dialog_et_name">Imię</string>
+    <string name="fragment_user_dialog_et_monthly_income">Dochód miesięczny</string>
+    <string name="fragment_user_dialog_et_monthly_savings">Planowana kwota miesięczna oszczędności</string>
+
+    <string name="fragment_expense_form_name">nazwa</string>
+    <string name="fragment_expense_form_category">kategoria</string>
+    <string name="fragment_expense_form_period">okres</string>
+    <string name="fragment_expense_form_amount">kwota</string>
+
+    <string name="fragment_summary_finance_tv_title">Finanse</string>
+    <string name="fragment_summary_expense_tv_title">Koszty</string>
+
+    <string name="fragment_summary_expense_btn_add">Dodaj koszt</string>
+    <string name="fragment_summary_expense_tv_limit_percent">Procent niewykorzystanych środków:</string>
+    <string name="fragment_summary_expense_tv_overrun_percent">Procent przekroczenia budżetu:</string>
+    <string name="fragment_summary_tv_list_empty">Brak kosztów w bieżącym miesiącu</string>
+    <string name="fragment_summary_expense_btn_delete">Usuń</string>
+    <string name="fragment_summary_chart_category">Kategoria zakupu</string>
+    <string name="fragment_summary_chart_no_data">Brak danych</string>
+
+    <string name="expense_period_monthly">miesięczny</string>
+    <string name="expense_period_quarterly">kwartalny</string>
+    <string name="expense_period_yearly">roczny</string>
+
+    <string name="expense_category_charges">opłaty</string>
+    <string name="expense_category_purchases">zakupy</string>
+    <string name="expense_category_pleasures">przyjemności</string>
+    <string name="expense_category_hobbies">hobby</string>
+
+    <string name="validation_empty_value">Wartość nie moze być pusta</string>
+    <string name="validation_incorrect_value">Niepoprawna wartość</string>
+    <string name="validation_incorrect_negative_value">Wartosć nie może być ujemna</string>
+    <string name="validation_greater_than">Planowana oszczędność przewyższa dochód</string>
+
+</resources>

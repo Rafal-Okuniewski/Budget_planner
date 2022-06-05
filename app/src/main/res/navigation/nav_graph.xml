@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/expense_summary_fragment">
+
+    <fragment
+        android:id="@+id/expense_summary_fragment"
+        android:name="com.finanteq.recruitment.ui.fragment.summary.ExpenseSummaryFragment"
+        android:label="@string/fragment_summary_label"
+        tools:layout="@layout/fragment_expense_summary">
+
+        <action
+            android:id="@+id/action_SummaryFragment_to_FormFragment"
+            app:destination="@id/expense_form_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/expense_form_fragment"
+        android:name="com.finanteq.recruitment.ui.fragment.form.ExpenseFormFragment"
+        android:label="@string/fragment_form_label"
+        tools:layout="@layout/fragment_expense_form">
+
+        <action
+            android:id="@+id/action_FormFragment_to_SummaryForm"
+            app:destination="@id/expense_summary_fragment" />
+    </fragment>
+
+</navigation>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primaryColor">#158bcc</color>
+    <color name="primaryLightColor">#61bbff</color>
+    <color name="primaryDarkColor">#005e9b</color>
+    <color name="secondaryColor">#a83160</color>
+    <color name="secondaryLightColor">#dd638d</color>
+    <color name="secondaryDarkColor">#750036</color>
+    <color name="primaryTextColor">#000000</color>
+    <color name="secondaryTextColor">#ffffff</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="crimson">#dc143c</color>
+    <color name="light_grey">#E3E3E3</color>
+    <color name="bright_green">#62fc03</color>
+
+    <color name="ic_launcher_background">#145c84</color>
+
+</resources>

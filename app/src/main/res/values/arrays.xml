@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="expenseCategory">
+        <item>@string/expense_category_charges</item>
+        <item>@string/expense_category_purchases</item>
+        <item>@string/expense_category_pleasures</item>
+        <item>@string/expense_category_hobbies</item>
+    </array>
+
+    <array name="expensePeriod">
+        <item>@string/expense_period_monthly</item>
+        <item>@string/expense_period_quarterly</item>
+        <item>@string/expense_period_yearly</item>
+    </array>
+
+</resources>
